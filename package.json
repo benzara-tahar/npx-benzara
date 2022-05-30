@@ -1,0 +1,35 @@
+{
+  "name": "benzara-me",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+	"author": {
+		"name": "Benzara Tahar Benlahcene",
+		"email": "benzara.tahar@gmail.com",
+		"url": "https://benzara.me"
+	},
+	"keywords": [
+		"resume",
+		"terminal",
+		"cli",
+		"benzara"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/benzara-tahar/npx-benzara"
+	},
+
+  "main": "index.js",
+  "bin": {
+    "benzara-me": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^8.2.4"
+  }
+}
